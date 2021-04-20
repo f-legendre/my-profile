@@ -1,0 +1,104 @@
+body {
+	background-color: #212121;
+	color: #0d7377;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 17px
+}
+
+h1, h2, h3 {
+font-family: 'Dela Gothic One', cursive;
+}
+
+h1{
+	color: #14ffec;
+	font-weight: bolder;
+	letter-spacing: 20px;
+	font-size: 60px;
+}
+
+h2 {
+	color: #323232;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #14ffec;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+ 
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,4);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 20%;
+}
+
+.button-blue {
+	background-color: #14ffec;
+	color: white;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.button-blue:hover {
+	background-color: orange;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px:;
+} 
+
+.list-inline i {
+	font-size: 50px;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: orange;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+@media  (max-width: 760px) {
+	 .container {
+	 	width: 600px;
+	 }
+}
+
+@media (max-width: 500px) {
+	 .container {
+	 	width: 400px;
+	 }
+}
+
+div {
+	background: white
+	border: 2px solid black;
+	margin: 10px
+}
